@@ -1,0 +1,379 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+
+.logo {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0px 0px;
+}
+.bg{
+  background-color: #fbffef;
+}
+
+.nav-links {
+  background-color: #53296e;
+  text-align: center;
+}
+
+.nav-links ul li {
+  display: inline-block;
+  list-style: none;
+  padding: 17px 10px;
+  position: relative;  
+}
+.nav-links ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 19px;
+}
+.banner {
+  width: 100%;
+  min-height: 70vh;
+  background-image: url(Assets/Images/21-multi-monitor-computer-desk-setup-ideas-for-tech-lovers-654.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.text-block {
+  width: 80%;
+  color: white;
+  position: absolute;
+  top: 46%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.text-block h1 {
+  font-size: 60px;
+}
+
+.text-block p {
+  font-size: 26px;
+}
+
+.btn-primary {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  border: 2px solid white;
+  padding: 12px 36px;
+  font-size: 15px;
+  background: transparent;
+  margin-top: 20px;
+}
+
+.btn-primary:hover {
+  border: 2px solid #c77dff;
+  background-color: #c77dff;
+  color: black;
+  transition: 0.5s;
+}
+
+.btn-secondary {
+  display: inline-block;
+  text-decoration: none;
+  color: #240046;
+  border: 2px solid #240046 ;
+  padding: 12px 36px;
+  font-size: 15px;
+  background: transparent;
+  position: relative;
+  margin-top: 20px;
+  border-radius: 15px;
+}
+
+.btn-secondary:hover {
+  border: 2px solid #240046;
+  background-color: #240046;
+  color: white;
+  transition: 0.5s;
+}
+nav .fa-solid {
+  display: none;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media  (min-width:768px) {
+  .container  {
+    width: 750px;
+  }
+}
+@media  (min-width:992px) {
+  .container  {
+    width: 970px;
+  } 
+}
+@media  (min-width:1200px) {
+  .container  {
+    width: 1170px;
+  }
+}
+
+.heading {
+  text-align: center;
+  padding: 60px 0px 20px 0px;
+  color: rgb(44, 44, 44);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.ad-banner {
+  background-color: #8A9A5B;
+  padding: 20px;
+  text-align: center;
+}
+.btn-primary1 {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  border: 2px solid white;
+  padding: 12px 26px;
+  font-size: 18px;
+  font-weight: 600;
+  background: rgb(27, 27, 27);
+  margin-top: 30px;
+  border-radius: 15px;
+}
+.btn-primary1:hover{
+  color: rgb(0, 0, 0);
+  background-color:rgb(255, 255, 255) ;
+  transition: 0.5s;
+}
+.img-responsive{
+  max-width: 100%;
+  height: auto;
+}
+.font-size{
+  font-size: 20px;
+}
+
+footer {
+  background-color: #8A9A5B;
+  padding: 80px 0px;
+  color: whitesmoke;
+  font-size: 20px;
+}
+
+.footer-menu li{
+list-style: none;
+display: block;
+padding: 10px 16px;
+position: relative;
+}
+
+footer h3{
+  padding-bottom: 20px;
+}
+
+
+.copyright{
+  background-color: black;
+  color: white;
+  padding: 20px 0px;
+  text-align: center;
+}
+
+.inner-banner{
+  width: 100%;
+  min-height: 60vh;
+  background-image: url(Assets/Images/1638328.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;  
+}
+
+.p40{
+padding: 40px 0px;
+}
+
+.sidebar{
+  padding-left: 50px;
+}
+.blog-area{
+  border-right: 1px solid #aaa;
+}
+.blog-item{
+  padding-bottom: 60px;
+}
+
+.product-name{
+text-decoration: underline;
+font-weight: bold;
+font-size: 20px;
+}
+
+.price{
+font-size: 28px;
+color: #240046;
+background: transparent;
+}
+
+
+.btn-shop {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  border: 2px solid #7b9e11 ;
+  padding: 12px 36px;
+  font-size: 15px;
+  background: #7b9e11;
+  position: relative;
+  margin-top: 20px;
+  border-radius: 15px;
+}
+
+.btn-shop:hover {
+  border: 2px solid #7b9e11 ;
+  background-color: white;
+  color:#7b9e11 ;
+  transition: 0.5s;
+}
+
+.product-card :hover{
+border: 2px solid #ccc;
+border-radius: 10px;
+}
+
+input[type="text"]{
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+box-sizing: border-box;
+}
+
+textarea{
+width: 100%;
+height: 200px;
+padding: 12px 20px;
+box-sizing: border-box;
+}
+  
+input[type=submit]{
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  border: 2px solid #7b9e11 ;
+  padding: 12px 36px;
+  font-size: 15px;
+  background: #7b9e11;
+  position: relative;
+  margin-top: 20px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  border: 2px solid #7b9e11 ;
+  background-color: white;
+  color:#7b9e11 ;
+  transition: 0.5s;
+}
+
+@media (max-width: 768px) {
+  .text-block h1 {
+    font-size: 36px;
+  }
+  .text-block p {
+    font-size: 16px;
+  }
+  nav .fa-bars {
+    display: block;
+  }
+  .nav-links {
+    position: absolute;
+    background-color: #3e0177;
+    height: 100vh;
+    width: 200px;
+    text-align: left;
+    z-index: 2;
+    top: 0;
+    left: -200px;
+    transition: 1.25s;
+  }
+
+  .nav-links ul li {
+    display: block;
+  }
+
+  .nav-links .fa-solid {
+    display: block;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+    margin: 10px;
+  }
+
+  .fa-bars {
+    position: absolute;
+    left: 10px;
+    top: 34px;
+    color: #3e0177;
+    cursor: pointer;
+  }
+
+footer h3{
+font-size: 11px;
+}
+.footer-menu li{
+  padding: 0px 2px;
+  font-size: 9px;
+}
+ 
+}
